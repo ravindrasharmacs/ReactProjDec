@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Counter from "./Counter";
+import Timer from "./Timer";
 // import "./styles.css"
 
 import { ThemeProvider, useTheme } from './ThemeContext'; // Import the Theme Provider
@@ -19,6 +20,8 @@ const ThemedApp = () => {
 const App = () => (
     //Example of useState hook
     <div className="App">
+    <h1>Timer Example</h1>
+    <Timer />
     <h1>UseState Example</h1>
     <Counter />
     <ThemeProvider>
