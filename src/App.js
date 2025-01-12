@@ -5,6 +5,7 @@ import Timer from "./Timer";
 import DataFetchingComponent from "./DataFetchingComponent";
 import ResizableComponent from "./ResizableComponent";
 import Focus from "./Focus";
+import ExpCal from "./ExpCal";
 // import "./styles.css"
 import ExampleComponent from "./ExampleClass";
 
@@ -24,7 +25,7 @@ const ThemedApp = () => {
 const App = () => (
     //Example of useState hook
     <div className="App">
-      
+         <ExpCal num={5} />
         <Focus />
         <ResizableComponent />
         <h1>Timer Example</h1>
