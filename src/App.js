@@ -25,6 +25,8 @@ const ThemedApp = () => {
 const App = () => (
     //Example of useState hook
     <div className="App">
+        <h1>State and props example</h1>
+        <Counter />
          <ExpCal num={5} />
         <Focus />
         <ResizableComponent />
