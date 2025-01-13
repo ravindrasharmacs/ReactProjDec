@@ -10,6 +10,7 @@ import ExpCal from "./ExpCal";
 import ExampleComponent from "./ExampleClass";
 
 import { ThemeProvider, useTheme } from './ThemeContext'; // Import the Theme Provider
+import ExCalback from "./ExCalback";
 
 const ThemedApp = () => {
     const { theme, toggleTheme } = useTheme(); // Use the Theme Context
@@ -25,6 +26,8 @@ const ThemedApp = () => {
 const App = () => (
     //Example of useState hook
     <div className="App">
+        <h1>Use of callback hook</h1>
+        <ExCalback />
         <h1>State and props example</h1>
         <Counter />
          <ExpCal num={5} />
